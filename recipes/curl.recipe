@@ -11,6 +11,12 @@ build_style = gnu
 source =
     https://curl.se/download/curl-8.11.1.tar.xz    c7ca7db48b0909743eaef34250da02c19bc61d4f1dcedd6603f109409536ab56
 
+configure_args =
+    --with-openssl
+    --without-ca-bundle
+    --without-ca-path
+    --without-ca-fallback
+
 depends =
     openssl
     zlib

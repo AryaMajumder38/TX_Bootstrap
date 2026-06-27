@@ -347,8 +347,8 @@ class BuildConfig:
             "ANDROID_API": str(self.min_api_level),
             "ANDROID_ABI": self.target_abi,
 
-            "CC": str(self.clang_path) if self.clang_path else "clang",
-            "CXX": str(self.clang_pp_path) if self.clang_pp_path else "clang++",
+            "CC": f"{self.clang_path} --target={triple_with_api} --sysroot={self.sysroot}" if self.clang_path else "clang",
+            "CXX": f"{self.clang_pp_path} --target={triple_with_api} --sysroot={self.sysroot}" if self.clang_pp_path else "clang++",
             "CPP": f"{self.clang_path} -E" if self.clang_path else "cpp",
             "LD": str(self.lld_path) if self.lld_path else "ld.lld",
             "AR": str(self.ar_path) if self.ar_path else "ar",
@@ -362,6 +362,10 @@ class BuildConfig:
             "CXXFLAGS": " ".join(self.cxxflags),
             "LDFLAGS": " ".join(self.ldflags),
             "CPPFLAGS": " ".join(self.cppflags),
+
+            "PKG_CONFIG_PATH": f"{self.artifacts_dir}/data/data/tx.packages/files/usr/lib/pkgconfig:{self.artifacts_dir}/data/data/tx.packages/files/usr/share/pkgconfig",
+            "PKG_CONFIG_LIBDIR": f"{self.artifacts_dir}/data/data/tx.packages/files/usr/lib/pkgconfig",
+            "PKG_CONFIG_SYSROOT_DIR": str(self.artifacts_dir),
 
             "TARGET_ARCH": self.target_arch,
             "TARGET_TRIPLE": self.target_triple,

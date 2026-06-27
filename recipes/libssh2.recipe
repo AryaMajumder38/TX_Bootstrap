@@ -9,11 +9,13 @@ release = 1
 build_style = gnu
 
 source =
-    https://www.libssh2.org/download/libssh2-1.11.1.tar.gz    d9ec76cbe34db98eec3539fe2c899d26b0c837cb3eb466a56b0f109cabf658f7
+    https://github.com/libssh2/libssh2/releases/download/libssh2-1.11.1/libssh2-1.11.1.tar.gz    d9ec76cbe34db98eec3539fe2c899d26b0c837cb3eb466a56b0f109cabf658f7
+
+configure_args =
+    --with-crypto=openssl
 
 depends =
     openssl
     zlib
 
-makedepends =
 

@@ -1,0 +1,16 @@
+name = liburcu
+version = 0.14.0
+category = devel
+description = Userspace RCU (read-copy-update) library
+homepage = https://liburcu.org/
+license = LGPL-2.1
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://lttng.org/files/urcu/userspace-rcu-0.14.0.tar.bz2    119ccdf8a3c87e914bf689cbfa75c044d0398b1b606ca5047862f928a3f81e64
+
+depends =
+
+makedepends =
