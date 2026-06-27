@@ -9,7 +9,7 @@ release = 1
 build_style = make
 
 source =
-    https://oldmanprogrammer.net/tar/tree/tree-2.2.1.tgz    7c8f0e2b8a1e9f0e1d2c3b4a5f6e7d8c9b0a1f2e3d4c5b6a7f8e9d0c1b2a3f4e5d6c7b8
+    https://oldmanprogrammer.net/tar/tree/tree-2.2.1.tgz    68ac45dc78c0c311ada06200ffc3c285e74223ba208061f8d15ffac25e44b2ec
 
 depends =
 

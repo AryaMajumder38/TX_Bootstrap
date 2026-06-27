@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://github.com/gregkh/usbutils/archive/refs/tags/v017.tar.gz    a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2
+    https://github.com/gregkh/usbutils/archive/refs/tags/v017.tar.gz    7bb79a4c3fc664b700838add2444906919fd1d9bd767a733fc4b23975d2872b7
 
 depends =
     libusb

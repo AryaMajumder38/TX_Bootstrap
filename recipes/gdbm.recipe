@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/gdbm/gdbm-1.25.tar.gz    d83491032369f3e0c1236c37f5c490708e8a7b0c5e3e4d6f8a0b2c4e6f8a0b2c4d6e8f0a2c4d6e8f0a2c4d6e8
+    https://ftp.gnu.org/gnu/gdbm/gdbm-1.25.tar.gz    d02db3c5926ed877f8817b81cd1f92f53ef74ca8c6db543fbba0271b34f393ec
 
 depends =
 

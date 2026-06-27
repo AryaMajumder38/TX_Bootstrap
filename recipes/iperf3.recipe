@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://github.com/esnet/iperf/releases/download/3.18/iperf-3.18.tar.gz    a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6
+    https://github.com/esnet/iperf/releases/download/3.18/iperf-3.18.tar.gz    c0618175514331e766522500e20c94bfb293b4424eb27d7207fb427b88d20bab
 
 depends =
     openssl

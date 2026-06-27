@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://www.kernel.org/pub/linux/utils/kbd/kbd-2.6.4.tar.xz    a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3
+    https://www.kernel.org/pub/linux/utils/kbd/kbd-2.6.4.tar.xz    519f8d087aecca7e0a33cd084bef92c066eb19731666653dcc70c9d71aa40926
 
 depends =
 

@@ -9,7 +9,7 @@ release = 1
 build_style = make
 
 source =
-    https://w1.fi/releases/wpa_supplicant-2.11.tar.gz    a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4
+    https://w1.fi/releases/wpa_supplicant-2.11.tar.gz    912ea06f74e30a8e36fbb68064d6cdff218d8d591db0fc5d75dee6c81ac7fc0a
 
 depends =
     openssl

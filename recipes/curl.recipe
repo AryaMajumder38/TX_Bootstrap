@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://curl.se/download/curl-8.11.1.tar.xz    5a8d9ed6c1c330b55f8f1f0f5b2e3c8d7e6f5a4b3c2d1e0f9a8b7c6d5e4f3a2b1
+    https://curl.se/download/curl-8.11.1.tar.xz    c7ca7db48b0909743eaef34250da02c19bc61d4f1dcedd6603f109409536ab56
 
 depends =
     openssl

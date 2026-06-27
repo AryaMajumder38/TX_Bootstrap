@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://www.kernel.org/pub/software/network/ethtool/ethtool-6.11.tar.xz    a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9
+    https://www.kernel.org/pub/software/network/ethtool/ethtool-6.11.tar.xz    8d91f5c72ae3f25b7e88d4781279dcb320f71e30058914370b1c574c96b31202
 
 depends =
     libmnl

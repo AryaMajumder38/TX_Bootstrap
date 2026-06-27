@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://www.tcpdump.org/release/libpcap-1.10.5.tar.gz    a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4
+    https://www.tcpdump.org/release/libpcap-1.10.5.tar.gz    37ced90a19a302a7f32e458224a00c365c117905c2cd35ac544b6880a81488f0
 
 depends =
     libnl

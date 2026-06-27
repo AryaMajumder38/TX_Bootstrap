@@ -9,7 +9,7 @@ release = 1
 build_style = python
 
 source =
-    https://github.com/mesonbuild/meson/releases/download/1.7.0/meson-1.7.0.tar.gz    8eaba9278d23bce2c203d7b2697fae267ba4dd9c5e7b1fae74f75e2f65327e41
+    https://github.com/mesonbuild/meson/releases/download/1.7.0/meson-1.7.0.tar.gz    08efbe84803eed07f863b05092d653a9d348f7038761d900412fddf56deb0284
 
 depends =
     ninja

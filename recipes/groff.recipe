@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/groff/groff-1.23.0.tar.gz    6b9757f592b7518b4902eb6af7e53570bd1206a1e10a177ac7e9f1f199e28c1d
+    https://ftp.gnu.org/gnu/groff/groff-1.23.0.tar.gz    6b9757f592b7518b4902eb6af7e54570bdccba37a871fddb2d30ae3863511c13
 
 depends =
     perl

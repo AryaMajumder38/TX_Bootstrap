@@ -9,7 +9,7 @@ release = 1
 build_style = make
 
 source =
-    https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.13.tar.xz    e1b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3
+    https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.13.tar.xz    e79dcc6eb86695c6babfb07c2861912b635d5075c6cd1cd0567d1ea155f80d6e
 
 depends =
     elfutils

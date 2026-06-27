@@ -9,7 +9,7 @@ release = 1
 build_style = cmake
 
 source =
-    https://github.com/libarchive/libarchive/releases/download/v3.7.8/libarchive-3.7.8.tar.xz    a12b6b347c4b8f9a93722f7b3287920c2e88f2b1b9e9a7e8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3
+    https://github.com/libarchive/libarchive/releases/download/v3.7.8/libarchive-3.7.8.tar.xz    32a51747527e01f50d0e06abad0fe0b95b6fa40b8fc173c48b8bd97d0f743330
 
 depends =
     zlib

@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/make/make-4.4.1.tar.gz    dd16fb1d67bfab79a96f293f0270016b0a9c7b7f7c6f2259204ec15b9cc5c82c
+    https://ftp.gnu.org/gnu/make/make-4.4.1.tar.gz    dd16fb1d67bfab79a72f5e8390735c49e3e8e70b4945a15ab1f81ddb78658fb3
 
 depends =
 

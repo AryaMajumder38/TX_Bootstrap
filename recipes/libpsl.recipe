@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://github.com/rockdaboot/libpsl/releases/download/0.21.5/libpsl-0.21.5.tar.gz    1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5
+    https://github.com/rockdaboot/libpsl/releases/download/0.21.5/libpsl-0.21.5.tar.gz    1dcc9ceae8b128f3c0b3f654decd0e1e891afc6ff81098f227ef260449dae208
 
 depends =
     libidn2

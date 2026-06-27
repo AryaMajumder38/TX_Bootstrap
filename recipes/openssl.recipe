@@ -9,7 +9,7 @@ release = 1
 build_style = make
 
 source =
-    https://www.openssl.org/source/openssl-3.4.0.tar.gz    e15dda82fe2fe8139dc2f21b57943c8f5a6c3c5e8e1b2c4d6e8f0a2c4e6f8a0c2e4d6f8
+    https://www.openssl.org/source/openssl-3.4.0.tar.gz    e15dda82fe2fe8139dc2ac21a36d4ca01d5313c75f99f46c4e8a27709b7294bf
 
 depends =
 

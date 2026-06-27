@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/automake/automake-1.17.tar.xz    7ab3a02376a84d5227f21ee82e9020b8a7d6c59c0d4de36c0c8e5465dcbb77b9
+    https://ftp.gnu.org/gnu/automake/automake-1.17.tar.xz    8920c1fc411e13b90bf704ef9db6f29d540e76d232cb3b2c9f4dc4cc599bd990
 
 depends =
     autoconf

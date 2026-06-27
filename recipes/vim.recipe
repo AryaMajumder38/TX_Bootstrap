@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://github.com/vim/vim/archive/refs/tags/v9.1.1106.tar.gz    a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6
+    https://github.com/vim/vim/archive/refs/tags/v9.1.1106.tar.gz    721e6d0d0fd4c95fa13808cf27ba976a6cf0fa225e77993d66dcecc20625f463
 
 depends =
     ncurses

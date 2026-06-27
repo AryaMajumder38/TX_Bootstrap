@@ -9,7 +9,7 @@ release = 1
 build_style = cmake
 
 source =
-    https://github.com/ninja-build/ninja/archive/refs/tags/v1.12.1.tar.gz    821bdff48c3e6b5f1c177c10658ed8f5f55330fe02c6d731d830a01607b7b52c
+    https://github.com/ninja-build/ninja/archive/refs/tags/v1.12.1.tar.gz    821bdff48a3f683bc4bb3b6f0b5fe7b2d647cf65d52aeb63328c91a6c6df285a
 
 depends =
 

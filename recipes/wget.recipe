@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/wget/wget-1.24.5.tar.gz    fa2dc27ed3c89c1d1c022e2ac3f6e7f2c3b4d5a6e7f8a9b0c1d2e3f4a5b6c7d8e9f0
+    https://ftp.gnu.org/gnu/wget/wget-1.24.5.tar.gz    fa2dc35bab5184ecbc46a9ef83def2aaaa3f4c9f3c97d4bd19dcb07d4da637de
 
 depends =
     openssl

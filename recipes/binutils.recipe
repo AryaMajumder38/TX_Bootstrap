@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/binutils/binutils-2.43.1.tar.xz    a2d4bfa8f95d7f30e67c368b719cb766a23c90c3fbe01b0a0e2e37c3c12b6c12
+    https://ftp.gnu.org/gnu/binutils/binutils-2.43.1.tar.xz    13f74202a3c4c51118b797a39ea4200d3f6cfbe224da6d1d95bb938480132dfd
 
 depends =
 

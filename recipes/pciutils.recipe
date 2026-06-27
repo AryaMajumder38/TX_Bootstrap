@@ -9,7 +9,7 @@ release = 1
 build_style = make
 
 source =
-    https://mj.ucw.cz/download/linux/pci/pciutils-3.13.0.tar.gz    a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1
+    https://mj.ucw.cz/download/linux/pci/pciutils-3.13.0.tar.gz    a03c88a0aab709b1697ca1753766f443e78297f84c7bcd80a82c1422edd7cb42
 
 depends =
     zlib

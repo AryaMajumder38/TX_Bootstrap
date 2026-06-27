@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/gzip/gzip-1.13.tar.xz    7454eb6935db17c6655576c2e1b0fabefd38b4d0936e0fae7aa4c45c7c0b02dc
+    https://ftp.gnu.org/gnu/gzip/gzip-1.13.tar.xz    7454eb6935db17c6655576c2e1b0fabefd38b4d0936e0f87f48cd062ce91a057
 
 depends =
 

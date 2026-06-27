@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://www.netfilter.org/projects/iptables/files/iptables-1.8.11.tar.xz    a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5
+    https://www.netfilter.org/projects/iptables/files/iptables-1.8.11.tar.xz    d87303d55ef8c92bcad4dd3f978b26d272013642b029425775f5bad1009fe7b2
 
 depends =
     libnftnl

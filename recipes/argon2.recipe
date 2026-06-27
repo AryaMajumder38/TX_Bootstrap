@@ -9,7 +9,7 @@ release = 1
 build_style = make
 
 source =
-    https://github.com/P-H-C/phc-winner-argon2/archive/refs/tags/20190702.tar.gz    a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6
+    https://github.com/P-H-C/phc-winner-argon2/archive/refs/tags/20190702.tar.gz    daf972a89577f8772602bf2eb38b6a3dd3d922bf5724d45e7f9589b5e830442c
 
 depends =
 

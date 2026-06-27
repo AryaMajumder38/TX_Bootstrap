@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/tar/tar-1.35.tar.xz    4d62ff37342ec7aed748999323bef04c19dc326ab73304856d55c1bd20ea7bce
+    https://ftp.gnu.org/gnu/tar/tar-1.35.tar.xz    4d62ff37342ec7aed748535323930c7cf94acf71c3591882b26a7ea50f3edc16
 
 depends =
 

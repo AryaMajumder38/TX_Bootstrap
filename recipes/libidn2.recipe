@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/libidn/libidn2-2.3.7.tar.gz    4c9a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4
+    https://ftp.gnu.org/gnu/libidn/libidn2-2.3.7.tar.gz    4c21a791b610b9519b9d0e12b8097bf2f359b12f8dd92647611a929e6bfd7d64
 
 depends =
     libunistring

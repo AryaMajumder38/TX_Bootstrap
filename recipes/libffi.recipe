@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://github.com/libffi/libffi/releases/download/v3.4.6/libffi-3.4.6.tar.gz    b0ea9c9db2cdb51f9c3986b080f94d91f0a7d7b5f018f12a1b9e51ab9a619e3f8
+    https://github.com/libffi/libffi/releases/download/v3.4.6/libffi-3.4.6.tar.gz    b0dea9df23c863a7a50e825440f3ebffabd65df1497108e5d437747843895a4e
 
 depends =
 

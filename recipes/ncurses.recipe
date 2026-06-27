@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz    bbbc151e499f23293ca31d9a8df41e38b0c0026bda08cced9e0e9a11cc1934a3
+    https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz    136d91bc269a9a5785e5f9e980bc76ab57428f604ce3e5a5a90cebc767971cc6
 
 depends =
 

@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://www.nano-editor.org/dist/v8/nano-8.3.tar.xz    9c3826deaa5b7414d6b2b5e8b1c4e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8
+    https://www.nano-editor.org/dist/v8/nano-8.3.tar.xz    551b717b2e28f7e90f749323686a1b5bbbd84cfa1390604d854a3ca3778f111e
 
 depends =
     ncurses

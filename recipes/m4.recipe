@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/m4/m4-1.4.19.tar.xz    63aede5c6d33b6d9b1351cd3dee5c866f53d11a1e01b30371dc690a91e0fb2ef
+    https://ftp.gnu.org/gnu/m4/m4-1.4.19.tar.xz    63aede5c6d33b6d9b13511cd0be2cac046f2e70fd0a07aa9573a04a82783af96
 
 depends =
 

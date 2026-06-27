@@ -9,7 +9,7 @@ release = 1
 build_style = make
 
 source =
-    https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.73.tar.xz    a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6b7c8d9e0f1a2b3c4d5e6f7a8b9
+    https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.73.tar.xz    6405f6089cf4cdd8c271540cd990654d78dd0b1989b2d9bda20f933a75a795a5
 
 depends =
 
