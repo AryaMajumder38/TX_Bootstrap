@@ -69,6 +69,7 @@ jobs:
           echo "Installing Android NDK..."
           NDK_URL="https://dl.google.com/android/repository/android-ndk-r27c-linux.zip"
           NDK_DIR="${{ runner.temp }}/android-ndk"
+          rm -rf "$NDK_DIR"
           mkdir -p "$NDK_DIR"
           cd "$NDK_DIR"
           curl -L --retry 3 --connect-timeout 30 "$NDK_URL" -o ndk.zip
