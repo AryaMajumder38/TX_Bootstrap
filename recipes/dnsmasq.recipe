@@ -11,6 +11,9 @@ build_style = make
 source =
     https://thekelleys.org.uk/dnsmasq/dnsmasq-2.90.tar.gz    8f6666b542403b5ee7ccce66ea73a4a51cf19dd49392aaccd37231a2c51b303b
 
+pre_build_cmds =
+    sed -i '1i #define ETHER_ADDR_LEN 6' src/dhcp.c
+
 depends =
     dbus
     libidn2

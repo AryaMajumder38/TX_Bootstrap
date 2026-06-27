@@ -15,5 +15,8 @@ depends =
     ncurses
     pcre2
 
+env_vars =
+    LDFLAGS=-lncursesw
+
 makedepends =
 

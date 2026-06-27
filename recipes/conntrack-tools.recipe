@@ -18,6 +18,7 @@ depends =
     libnetfilter_queue
     libmnl
     libnfnetlink
+    libtirpc
 
 makedepends =
 

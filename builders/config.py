@@ -299,6 +299,11 @@ class BuildConfig:
             "-no-canonical-prefixes",
             "-Wformat",
             "-Werror=format-security",
+            "-Wno-error=implicit-function-declaration",
+            "-Wno-error=implicit-int",
+            "-Wno-error=deprecated-non-prototype",
+            "-Wno-error=incompatible-function-pointer-types",
+            "-Wno-error=int-conversion"
         ]
 
         self.cxxflags = self.cflags + [
@@ -363,8 +368,8 @@ class BuildConfig:
             "LDFLAGS": " ".join(self.ldflags),
             "CPPFLAGS": " ".join(self.cppflags),
 
-            "PKG_CONFIG_PATH": f"{self.artifacts_dir}/data/data/tx.packages/files/usr/lib/pkgconfig:{self.artifacts_dir}/data/data/tx.packages/files/usr/share/pkgconfig",
-            "PKG_CONFIG_LIBDIR": f"{self.artifacts_dir}/data/data/tx.packages/files/usr/lib/pkgconfig",
+            "PKG_CONFIG_PATH": f"{self.artifacts_dir}/data/data/tx.packages/files/usr/lib/pkgconfig:{self.artifacts_dir}/data/data/tx.packages/files/usr/lib64/pkgconfig:{self.artifacts_dir}/data/data/tx.packages/files/usr/share/pkgconfig",
+            "PKG_CONFIG_LIBDIR": f"{self.artifacts_dir}/data/data/tx.packages/files/usr/lib/pkgconfig:{self.artifacts_dir}/data/data/tx.packages/files/usr/lib64/pkgconfig",
             "PKG_CONFIG_SYSROOT_DIR": str(self.artifacts_dir),
 
             "TARGET_ARCH": self.target_arch,

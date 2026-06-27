@@ -11,7 +11,11 @@ build_style = custom
 source =
     https://curl.se/ca/cacert-2024-12-31.pem    
 
-install_cmds =
+pre_build_cmds =
+    echo "all:" > Makefile
+    echo "install:" >> Makefile
+
+post_install_cmds =
     mkdir -p {{PREFIX}}/etc/ssl/certs
     cp cacert-2024-12-31.pem {{PREFIX}}/etc/ssl/certs/ca-certificates.crt
     ln -sf ca-certificates.crt {{PREFIX}}/etc/ssl/certs/ca-bundle.crt

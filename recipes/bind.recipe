@@ -17,6 +17,7 @@ depends =
     libuv
     json-c
     libnghttp2
+    liburcu
 
 makedepends =
 
