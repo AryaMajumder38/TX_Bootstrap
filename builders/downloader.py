@@ -80,14 +80,29 @@ class SourceDownloader:
             for attempt in range(1, self.retries + 1):
                 try:
                     result = self._download_file(url, dest_path, filename, source.checksum)
-                    if result.success:
+                    if result.success and result.checksum_valid:
                         return result
+                    elif result.success and not result.checksum_valid:
+                        logger.warning(f"Checksum invalid after download, deleting corrupted file: {dest_path}")
+                        if dest_path.exists():
+                            dest_path.unlink()
+                        # Treat as failure to trigger retry
+                        last_error = "Checksum mismatch"
+                except urllib.error.HTTPError as e:
+                    if e.code == 416 and dest_path.exists():
+                        logger.warning("416 Range Not Satisfiable, deleting file and restarting download")
+                        dest_path.unlink()
+                        # Don't sleep, retry immediately
+                        continue
+                    last_error = str(e)
+                    logger.warning(f"Download attempt {attempt}/{self.retries} failed for {url}: {e}")
                 except Exception as e:
                     last_error = str(e)
                     logger.warning(f"Download attempt {attempt}/{self.retries} failed for {url}: {e}")
-                    if attempt < self.retries:
-                        import time
-                        time.sleep(2 ** attempt)  # Exponential backoff
+                
+                if attempt < self.retries:
+                    import time
+                    time.sleep(2 ** attempt)  # Exponential backoff
 
         # All attempts failed
         error_msg = f"Failed to download {filename} from all mirrors"
