@@ -313,6 +313,7 @@ class BuildConfig:
         self.ldflags = [
             f"--target={triple_with_api}",
             f"--sysroot={self.sysroot}",
+            f"-L{self.artifacts_dir}/data/data/tx.packages/files/usr/lib",
             "-fuse-ld=lld",
             "-stdlib=libc++",
             "-Wl,--build-id=sha1",
@@ -327,6 +328,7 @@ class BuildConfig:
 
         self.cppflags = [
             f"-I{self.sysroot}/usr/include/{self.target_triple}",
+            f"-I{self.artifacts_dir}/data/data/tx.packages/files/usr/include",
             "-DANDROID",
             f"-D__ANDROID_API__={self.min_api_level}",
         ]

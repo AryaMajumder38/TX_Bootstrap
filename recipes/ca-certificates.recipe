@@ -17,7 +17,7 @@ pre_build_cmds =
 
 post_install_cmds =
     mkdir -p {{PREFIX}}/etc/ssl/certs
-    cp cacert-2024-12-31.pem {{PREFIX}}/etc/ssl/certs/ca-certificates.crt
+    cp ../../sources/ca-certificates-2024.12.31/cacert-2024-12-31.pem {{PREFIX}}/etc/ssl/certs/ca-certificates.crt
     ln -sf ca-certificates.crt {{PREFIX}}/etc/ssl/certs/ca-bundle.crt
 
 depends =

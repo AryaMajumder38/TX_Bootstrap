@@ -13,6 +13,7 @@ source =
 
 env_vars =
     ac_cv_lib_pthread_pthread_mutex_lock=yes
+    CFLAGS=-Din_addr_t=uint32_t
 
 depends =
 

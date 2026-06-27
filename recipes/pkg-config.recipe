@@ -9,10 +9,12 @@ release = 1
 build_style = gnu
 
 source =
-    https://pkg-config.freedesktop.org/releases/pkg-config-0.29.2.tar.gz    6fc69c01688c9458a57eb9a1664c9aba372ccda420a02bf4429fe610e7e7d591
+    https://pkgconfig.freedesktop.org/releases/pkg-config-0.29.2.tar.gz    6fc69c01688c9458a57eb9a1664c9aba372fac5402fe01ac8c9735d4879eb00d
+
+configure_args =
+    --with-internal-glib
 
 depends =
 
 
 makedepends =
-

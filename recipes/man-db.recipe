@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://download.savannah.gnu.org/releases/man-db/man-db-2.13.0.tar.xz    82f0739f4f61aab5eb937d234de3b014e777b5538a28cbd31433c45ae09aefb9
+    https://download-mirror.savannah.gnu.org/releases/man-db/man-db-2.13.0.tar.xz    82f0739f4f61aab5eb937d234de3b014e777b5538a28cbd31433c45ae09aefb9
 
 depends =
     gdbm
