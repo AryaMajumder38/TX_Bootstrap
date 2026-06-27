@@ -236,7 +236,7 @@ class RecipeParser:
                 continue
 
             # Check for key-value pair (key = value)
-            if '=' in stripped and not stripped.startswith(' ') and not stripped.startswith('\t'):
+            if '=' in stripped and not line.startswith(' ') and not line.startswith('\t'):
                 # Save previous key
                 if current_key is not None:
                     data[current_key] = '\n'.join(current_lines)
@@ -253,7 +253,7 @@ class RecipeParser:
 
                 current_key = key
                 current_lines = [value]
-            elif stripped.startswith(' ') or stripped.startswith('\t'):
+            elif line.startswith(' ') or line.startswith('\t'):
                 # Continuation of previous key
                 if current_key is not None:
                     current_lines.append(stripped)
