@@ -6,10 +6,11 @@ homepage = https://gitlab.com/psmisc/psmisc
 license = GPL-2.0-or-later
 epoch = 0
 release = 1
-build_style = gnu
+build_style =
+extract_dir = psmisc-v23.7 gnu
 
 source =
-    https://downloads.sourceforge.net/project/psmisc/psmisc/psmisc-23.7.tar.xz    b037e21ae147ea0160522bfac395f28f9e474af31ba18d81b2dc5a8cb255f67e
+    https://gitlab.com/psmisc/psmisc/-/archive/v23.7/psmisc-v23.7.tar.gz    8f2526ce7ac6ef4976454cd63095fa10e467ef745cf33dc4f91df0bd7b10b905
 
 depends =
     ncurses

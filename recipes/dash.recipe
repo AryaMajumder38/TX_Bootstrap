@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://git.kernel.org/pub/scm/utils/dash/dash.git/snapshot/dash-0.5.12.tar.gz    83fc7f792c786c7b874b2ece4128e85a432359461418756b64adcac11fbc0a17
+    http://deb.debian.org/debian/pool/main/d/dash/dash_0.5.12.orig.tar.gz    6a474ac46e8b0b32916c4c60df694c82058d3297d8b385b74508030ca4a8f28a
 
 depends =
 

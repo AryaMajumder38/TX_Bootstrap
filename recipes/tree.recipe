@@ -9,7 +9,7 @@ release = 1
 build_style = make
 
 source =
-    https://oldmanprogrammer.net/tar/tree/tree-2.2.1.tgz    68ac45dc78c0c311ada06200ffc3c285e74223ba208061f8d15ffac25e44b2ec
+    https://deb.debian.org/debian/pool/main/t/tree/tree_2.2.1.orig.tar.gz    68ac45dc78c0c311ada06200ffc3c285e74223ba208061f8d15ffac25e44b2ec
 
 depends =
 

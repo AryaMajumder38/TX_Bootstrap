@@ -6,10 +6,11 @@ homepage = https://infozip.sourceforge.net/
 license = Info-ZIP
 epoch = 0
 release = 1
-build_style = make
+build_style =
+extract_dir = zip30 make
 
 source =
-    https://downloads.sourceforge.net/infozip/zip30.tar.gz    48940594e31888cbf38714a13615d52cf1b5ed91f5ce15516de5cd9edce97dcc
+    http://deb.debian.org/debian/pool/main/z/zip/zip_3.0.orig.tar.gz    f0e8bb1f9b7eb0b01285495a2699df3a4b766784c1765a8f1aeedf63c0806369
 
 depends =
 

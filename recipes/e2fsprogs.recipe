@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.47.2/e2fsprogs-1.47.2.tar.gz    d4898feba28f55c77fa4d82ead09ff70b3da14efea9ad539e3df741548ba41fa
+    https://mirrors.kernel.org/pub/linux/kernel/people/tytso/e2fsprogs/v1.47.2/e2fsprogs-1.47.2.tar.gz    7a959221c1b1cc6e28b7d7a4e204a2ffd8ec6d8a2de4461c482b64c5f4463cca
 
 depends =
 
