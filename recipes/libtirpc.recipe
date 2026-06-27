@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    http://deb.debian.org/debian/pool/main/libt/libtirpc/libtirpc_1.3.4.orig.tar.bz2    1e0b0c7231c5fa122e06c0609a76723664d06fb682026ae83842cb3a9030018a
+    https://downloads.sourceforge.net/project/libtirpc/libtirpc/1.3.4/libtirpc-1.3.4.tar.bz2    1f3aa9d71bb98ce102ce1cfe4311a7bc1669d5877cb97909980b3c96da70b014
 
 depends =
 

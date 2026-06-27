@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://lttng.org/files/urcu/userspace-rcu-0.14.0.tar.bz2    119ccdf8a3c87e914bf689cbfa75c044d0398b1b606ca5047862f928a3f81e64
+    https://lttng.org/files/urcu/userspace-rcu-0.14.0.tar.bz2    ca43bf261d4d392cff20dfae440836603bf009fce24fdc9b2697d837a2239d4f
 
 depends =
 
