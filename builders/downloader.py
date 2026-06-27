@@ -39,7 +39,7 @@ class SourceDownloader:
     DEFAULT_RETRIES = 3
     DEFAULT_TIMEOUT = 300  # 5 minutes
     CHUNK_SIZE = 8192  # 8KB chunks
-    USER_AGENT = "TX-Packages/1.0 Source Downloader"
+    USER_AGENT = "curl/8.7.1"
 
     def __init__(self, downloads_dir: Path, retries: int = DEFAULT_RETRIES):
         self.downloads_dir = Path(downloads_dir)
