@@ -1,0 +1,18 @@
+name = tar
+version = 1.35
+category = core-utils
+description = GNU Tar
+homepage = https://www.gnu.org/software/tar/
+license = GPL-3.0-or-later
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://ftp.gnu.org/gnu/tar/tar-1.35.tar.xz    4d62ff37342ec7aed748999323bef04c19dc326ab73304856d55c1bd20ea7bce
+
+depends =
+
+
+makedepends =
+

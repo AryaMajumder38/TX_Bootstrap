@@ -1,0 +1,19 @@
+name = autoconf
+version = 2.72
+category = build-tools
+description = GNU Autoconf - automatic configure script builder
+homepage = https://www.gnu.org/software/autoconf/
+license = GPL-3.0-or-later
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://ftp.gnu.org/gnu/autoconf/autoconf-2.72.tar.xz    ba885c1319578d6c94d45e900b1be3510c106f2043b33fd7c77625ea9bde7696
+
+depends =
+    m4
+    perl
+
+makedepends =
+

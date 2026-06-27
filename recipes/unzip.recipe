@@ -1,0 +1,18 @@
+name = unzip
+version = 6.0
+category = core-utils
+description = Info-ZIP extraction utility
+homepage = https://infozip.sourceforge.net/
+license = Info-ZIP
+epoch = 0
+release = 1
+build_style = make
+
+source =
+    https://downloads.sourceforge.net/infozip/unzip60.tar.gz    036d96991646d0449ed0aa952e4fbe21b476ce994abc276e49d30e68608bd6e9
+
+depends =
+
+
+makedepends =
+

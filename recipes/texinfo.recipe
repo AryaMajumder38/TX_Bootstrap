@@ -1,0 +1,19 @@
+name = texinfo
+version = 7.2
+category = doc
+description = Documentation system for on-line information and printed output
+homepage = https://www.gnu.org/software/texinfo/
+license = GPL-3.0-or-later
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://ftp.gnu.org/gnu/texinfo/texinfo-7.2.tar.xz    9e4b34ebdc7ef251fb74894507b6e5c94c2514a32efa6f8b2cf7f597f348d3db
+
+depends =
+    ncurses
+    perl
+
+makedepends =
+

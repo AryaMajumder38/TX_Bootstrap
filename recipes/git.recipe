@@ -1,0 +1,21 @@
+name = git
+version = 2.48.1
+category = vcs
+description = Distributed version control system
+homepage = https://git-scm.com/
+license = GPL-2.0-only
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://www.kernel.org/pub/software/scm/git/git-2.48.1.tar.xz    1c5d774e10a432ca8d07807c6ccdd22e4e63cf1a1eb0c5e1b7c4f4d7f8a9e2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6
+
+depends =
+    openssl
+    curl
+    zlib
+    expat
+
+makedepends =
+

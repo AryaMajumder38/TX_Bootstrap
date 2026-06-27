@@ -1,0 +1,19 @@
+name = cmake
+version = 3.31.5
+category = build-tools
+description = Cross-platform build system generator
+homepage = https://cmake.org/
+license = BSD-3-Clause
+epoch = 0
+release = 1
+build_style = cmake
+
+source =
+    https://github.com/Kitware/CMake/releases/download/v3.31.5/cmake-3.31.5.tar.gz    66fb1f8af6b7d93d7c0e4d98c5a92f5d6e4b3c2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e7d6
+
+depends =
+    ncurses
+    openssl
+
+makedepends =
+

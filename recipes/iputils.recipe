@@ -1,0 +1,18 @@
+name = iputils
+version = 20240117
+category = system
+description = Network monitoring tools including ping
+homepage = https://github.com/iputils/iputils
+license = BSD-3-Clause AND GPL-2.0-or-later
+epoch = 0
+release = 1
+build_style = meson
+
+source =
+    https://github.com/iputils/iputils/archive/refs/tags/20240117.tar.gz    a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8
+
+depends =
+    libcap
+
+makedepends =
+

@@ -1,0 +1,18 @@
+name = xz
+version = 5.6.2
+category = core-utils
+description = XZ Utils
+homepage = https://tukaani.org/xz/
+license = GPL-2.0-or-later AND LGPL-2.0-or-later
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://github.com/tukaani-project/xz/releases/download/v5.6.2/xz-5.6.2.tar.xz    a5eb4f707cf42876faa6fd4a104f48fc514c3a50b8d7e485bdaeacb90ab884a5
+
+depends =
+
+
+makedepends =
+

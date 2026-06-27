@@ -1,0 +1,19 @@
+name = nodejs
+version = 22.13.1
+category = languages
+description = JavaScript runtime built on Chrome's V8 engine
+homepage = https://nodejs.org/
+license = MIT
+epoch = 0
+release = 1
+build_style = custom
+
+source =
+    https://nodejs.org/dist/v22.13.1/node-v22.13.1.tar.xz    e4d4c6458d5c9ab21ae5fe3d3403e2b580f23f2f0d09c78550fadb428a1b117d
+
+depends =
+    openssl
+    zlib
+
+makedepends =
+

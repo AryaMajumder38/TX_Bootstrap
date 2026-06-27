@@ -1,0 +1,21 @@
+name = ruby
+version = 3.4.2
+category = languages
+description = Dynamic, open source programming language
+homepage = https://www.ruby-lang.org/
+license = Ruby OR BSD-2-Clause
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.2.tar.gz    1b5a4a878903e526f2021994f457c12b35bd191efeefa5efad424f88561e5154
+
+depends =
+    openssl
+    libffi
+    yaml
+    readline
+
+makedepends =
+

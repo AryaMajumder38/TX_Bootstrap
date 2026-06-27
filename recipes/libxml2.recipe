@@ -1,0 +1,19 @@
+name = libxml2
+version = 2.13.6
+category = libraries
+description = XML parsing library
+homepage = https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home
+license = MIT
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://download.gnome.org/sources/libxml2/2.13/libxml2-2.13.6.tar.xz    f453480307524268f3a09c94afccc04159846b6286207dbe7d58b4e30ea1b908
+
+depends =
+    zlib
+    xz
+
+makedepends =
+

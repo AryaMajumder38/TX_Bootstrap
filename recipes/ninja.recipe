@@ -1,0 +1,18 @@
+name = ninja
+version = 1.12.1
+category = build-tools
+description = Small build system with focus on speed
+homepage = https://ninja-build.org/
+license = Apache-2.0
+epoch = 0
+release = 1
+build_style = cmake
+
+source =
+    https://github.com/ninja-build/ninja/archive/refs/tags/v1.12.1.tar.gz    821bdff48c3e6b5f1c177c10658ed8f5f55330fe02c6d731d830a01607b7b52c
+
+depends =
+
+
+makedepends =
+

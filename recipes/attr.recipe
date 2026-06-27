@@ -1,0 +1,18 @@
+name = attr
+version = 2.5.2
+category = system
+description = Extended attribute tools
+homepage = https://savannah.nongnu.org/projects/attr
+license = LGPL-2.1-or-later
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://download.savannah.gnu.org/releases/attr/attr-2.5.2.tar.xz    f5879116ad92b4c9ef720e56dc5f8240c199c3febe1a5c020b2e5c99c030b5c9
+
+depends =
+
+
+makedepends =
+

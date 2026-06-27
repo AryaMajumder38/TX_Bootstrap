@@ -1,0 +1,20 @@
+name = perf
+version = 6.13.0
+category = devel
+description = Linux performance analysis tool
+homepage = https://kernel.org/
+license = GPL-2.0-only
+epoch = 0
+release = 1
+build_style = make
+
+source =
+    https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.13.tar.xz    e1b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3
+
+depends =
+    elfutils
+    libunwind
+    numactl
+
+makedepends =
+

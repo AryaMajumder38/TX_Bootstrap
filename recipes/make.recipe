@@ -1,0 +1,18 @@
+name = make
+version = 4.4.1
+category = build-tools
+description = GNU Make
+homepage = https://www.gnu.org/software/make/
+license = GPL-3.0-or-later
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://ftp.gnu.org/gnu/make/make-4.4.1.tar.gz    dd16fb1d67bfab79a96f293f0270016b0a9c7b7f7c6f2259204ec15b9cc5c82c
+
+depends =
+
+
+makedepends =
+

@@ -1,0 +1,22 @@
+name = man-db
+version = 2.13.0
+category = doc
+description = On-line manual pager
+homepage = https://man-db.nongnu.org/
+license = GPL-2.0-or-later
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://download.savannah.gnu.org/releases/man-db/man-db-2.13.0.tar.xz    82f0745a1a2dca527e1a330d5e1f3c5a3e1f5a7e9c0d2b4a6f8e0c2d4b6a8f0e2c4d6b8a0f2e4c6d8a0b2c4d6e8
+
+depends =
+    gdbm
+    groff
+    less
+    zlib
+    libpipeline
+
+makedepends =
+

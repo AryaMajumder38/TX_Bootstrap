@@ -1,0 +1,18 @@
+name = grep
+version = 3.11
+category = core-utils
+description = GNU Grep
+homepage = https://www.gnu.org/software/grep/
+license = GPL-3.0-or-later
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://ftp.gnu.org/gnu/grep/grep-3.11.tar.xz    d2c864b247c73bd99f143c1487863668e5c9202346827655c347bc83c36f2133
+
+depends =
+    pcre2
+
+makedepends =
+

@@ -1,0 +1,18 @@
+name = nghttp2
+version = 1.64.0
+category = networking
+description = HTTP/2 C Library
+homepage = https://nghttp2.org/
+license = MIT
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://github.com/nghttp2/nghttp2/releases/download/v1.64.0/nghttp2-1.64.0.tar.xz    8f0f1c6e0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0
+
+depends =
+
+
+makedepends =
+

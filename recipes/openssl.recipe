@@ -1,0 +1,18 @@
+name = openssl
+version = 3.4.0
+category = networking
+description = OpenSSL cryptography and SSL/TLS toolkit
+homepage = https://www.openssl.org/
+license = Apache-2.0
+epoch = 0
+release = 1
+build_style = make
+
+source =
+    https://www.openssl.org/source/openssl-3.4.0.tar.gz    e15dda82fe2fe8139dc2f21b57943c8f5a6c3c5e8e1b2c4d6e8f0a2c4e6f8a0c2e4d6f8
+
+depends =
+
+
+makedepends =
+

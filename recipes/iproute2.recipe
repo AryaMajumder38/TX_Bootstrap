@@ -1,0 +1,21 @@
+name = iproute2
+version = 6.13.0
+category = system
+description = IP Routing Utilities
+homepage = https://wiki.linuxfoundation.org/networking/iproute2
+license = GPL-2.0-or-later
+epoch = 0
+release = 1
+build_style = make
+
+source =
+    https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-6.13.0.tar.xz    a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4
+
+depends =
+    bison
+    flex
+    libmnl
+    libbpf
+
+makedepends =
+

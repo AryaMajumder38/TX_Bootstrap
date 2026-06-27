@@ -1,0 +1,18 @@
+name = perl
+version = 5.40.1
+category = languages
+description = Practical Extraction and Report Language
+homepage = https://www.perl.org/
+license = Artistic-1.0-Perl OR GPL-1.0-or-later
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://www.cpan.org/src/5.0/perl-5.40.1.tar.xz    dfa20c2eef2b800444f97d220e4101469d1c0a6e9e1ee2fd3c120c4a8d7b34b6
+
+depends =
+
+
+makedepends =
+

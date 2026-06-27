@@ -1,0 +1,18 @@
+name = readline
+version = 8.2.13
+category = libraries
+description = GNU readline library
+homepage = https://tiswww.case.edu/php/chet/readline/rltop.html
+license = GPL-3.0-or-later
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://ftp.gnu.org/gnu/readline/readline-8.2.13.tar.gz    0e5be0d9835ea7a3c674c97f4274e0c30e5b32c17b16a5d844e4a16f3eb9c9b2
+
+depends =
+    ncurses
+
+makedepends =
+

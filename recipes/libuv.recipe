@@ -1,0 +1,18 @@
+name = libuv
+version = 1.50.0
+category = libraries
+description = Cross-platform asynchronous I/O
+homepage = https://libuv.org/
+license = MIT
+epoch = 0
+release = 1
+build_style = cmake
+
+source =
+    https://dist.libuv.org/dist/v1.50.0/libuv-v1.50.0.tar.gz    b1ec564b81751bb8d8804c39ef321e1eb4a7a6bdad5fd9a25347d1b88ad4455e
+
+depends =
+
+
+makedepends =
+

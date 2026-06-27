@@ -1,0 +1,18 @@
+name = zip
+version = 3.0
+category = core-utils
+description = Info-ZIP compression utility
+homepage = https://infozip.sourceforge.net/
+license = Info-ZIP
+epoch = 0
+release = 1
+build_style = make
+
+source =
+    https://downloads.sourceforge.net/infozip/zip30.tar.gz    f0e8bb1f9b7eb0b01285495a2699df3a4b766784c1765a8f1aeedf632c89f81e
+
+depends =
+
+
+makedepends =
+

@@ -1,0 +1,18 @@
+name = coreutils
+version = 9.5
+category = core-utils
+description = GNU Core Utilities
+homepage = https://www.gnu.org/software/coreutils/
+license = GPL-3.0-or-later
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://ftp.gnu.org/gnu/coreutils/coreutils-9.5.tar.xz    6f7f2f91eb6e66f46c3cec28bd405c0ad4cb75ed2a8db2a9a3886dca63053462
+
+depends =
+
+
+makedepends =
+

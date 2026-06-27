@@ -1,0 +1,23 @@
+name = python
+version = 3.13.2
+category = languages
+description = Python programming language
+homepage = https://www.python.org/
+license = PSF-2.0
+epoch = 0
+release = 1
+build_style = gnu
+
+source =
+    https://www.python.org/ftp/python/3.13.2/Python-3.13.2.tar.xz    4c31d3cfaeeb62a9006d1c1c587e83fc275c7f977138524f2eb0318550a7f9f5
+
+depends =
+    openssl
+    zlib
+    xz
+    sqlite
+    libffi
+    bzip2
+
+makedepends =
+

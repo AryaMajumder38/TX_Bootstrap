@@ -1,0 +1,19 @@
+name = fish
+version = 3.7.1
+category = shells
+description = Friendly Interactive Shell
+homepage = https://fishshell.com/
+license = GPL-2.0-only
+epoch = 0
+release = 1
+build_style = cmake
+
+source =
+    https://github.com/fish-shell/fish-shell/releases/download/3.7.1/fish-3.7.1.tar.xz    6c5db0c4630334c21e023bb772520e1dbfb9d3e4b4f83c6851b6ec1fa7586093
+
+depends =
+    ncurses
+    pcre2
+
+makedepends =
+

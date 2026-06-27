@@ -1,0 +1,18 @@
+name = fmt
+version = 11.1.4
+category = libraries
+description = Modern formatting library
+homepage = https://fmt.dev/
+license = MIT
+epoch = 0
+release = 1
+build_style = cmake
+
+source =
+    https://github.com/fmtlib/fmt/archive/refs/tag/11.1.4.tar.gz    ac7752f066934d0fbc099ea50450f7e2e0353e6affc50c219bd0c100c5feb762
+
+depends =
+
+
+makedepends =
+
