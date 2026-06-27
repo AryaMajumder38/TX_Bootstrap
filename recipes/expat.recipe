@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://github.com/libexpat/libexpat/releases/download/R_2_6_4/expat-2.6.4.tar.xz    a69561982e101f52ffc1a9c56d6d5d859cb496e351afb40d2e0a709b1c23535e
+    https://github.com/libexpat/libexpat/releases/download/R_2_6_4/expat-2.6.4.tar.xz    a695629dae047055b37d50a0ff4776d1d45d0a4c842cf4ccee158441f55ff7ee
 
 depends =
 

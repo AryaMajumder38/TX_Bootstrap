@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/findutils/findutils-4.10.0.tar.xz    1387e0b91ff78d6ed5f0a7a57e6f5db13c1e0140c67d9d9800526ae886d7aafb
+    https://mirrors.kernel.org/gnu/findutils/findutils-4.10.0.tar.xz    1387e0b67ff247d2abde998f90dfbf70c1491391a59ddfecb8ae698789f0a4f5
 
 depends =
 

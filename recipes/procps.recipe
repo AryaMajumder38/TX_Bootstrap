@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://downloads.sourceforge.net/project/procps-ng/Production/procps-ng-4.0.4.tar.xz    fb3bbaf1d0d3ced80a723197aefb3ee4d61e5525e54db4e3ca2dba7b30ddcabf
+    https://downloads.sourceforge.net/project/procps-ng/Production/procps-ng-4.0.4.tar.xz    edb25d2b0f38150a75a32f48c9a6b76dd9b745564b6f37684013ebef7fac7164
 
 depends =
     ncurses

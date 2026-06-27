@@ -9,7 +9,7 @@ release = 1
 build_style = make
 
 source =
-    https://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/wireless_tools.30.pre9.tar.gz    abd9c5c98abf1fdd11892ac2f8a56737544fe101e1be27c6241a564948f34c63
+    https://hewlettpackard.github.io/wireless-tools/wireless_tools.30.pre9.tar.gz    abd9c5c98abf1fdd11892ac2f8a56737544fe101e1be27c6241a564948f34c63
 
 depends =
 

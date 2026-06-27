@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://downloads.sourceforge.net/project/psmisc/psmisc/psmisc-23.7.tar.xz    c3bda82ac0a44ab45c4b8094790b58dae3e7da500823bf243e561c8f1fc45f20
+    https://downloads.sourceforge.net/project/psmisc/psmisc/psmisc-23.7.tar.xz    b037e21ae147ea0160522bfac395f28f9e474af31ba18d81b2dc5a8cb255f67e
 
 depends =
     ncurses

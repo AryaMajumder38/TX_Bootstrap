@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/grep/grep-3.11.tar.xz    d2c864b247c73bd99f143c1487863668e5c9202346827655c347bc83c36f2133
+    https://mirrors.kernel.org/gnu/grep/grep-3.11.tar.xz    1db2aedde89d0dea42b16d9528f894c8d15dae4e190b59aecc78f5a951276eab
 
 depends =
     pcre2

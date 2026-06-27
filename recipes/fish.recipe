@@ -9,7 +9,7 @@ release = 1
 build_style = cmake
 
 source =
-    https://github.com/fish-shell/fish-shell/releases/download/3.7.1/fish-3.7.1.tar.xz    6c5db0c4630334c21e023bb772520e1dbfb9d3e4b4f83c6851b6ec1fa7586093
+    https://github.com/fish-shell/fish-shell/releases/download/3.7.1/fish-3.7.1.tar.xz    614c9f5643cd0799df391395fa6bbc3649427bb839722ce3b114d3bbc1a3b250
 
 depends =
     ncurses

@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://www.python.org/ftp/python/3.13.2/Python-3.13.2.tar.xz    4c31d3cfaeeb62a9006d1c1c587e83fc275c7f977138524f2eb0318550a7f9f5
+    https://www.python.org/ftp/python/3.13.2/Python-3.13.2.tar.xz    d984bcc57cd67caab26f7def42e523b1c015bbc5dc07836cf4f0b63fa159eb56
 
 depends =
     openssl

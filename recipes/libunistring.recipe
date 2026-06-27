@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/libunistring/libunistring-1.3.tar.xz    f245786c831ebb68bb964a20e772459bf4f1aa794be3625a1fc2e9e2c995c29a
+    https://mirrors.kernel.org/gnu/libunistring/libunistring-1.3.tar.xz    f245786c831d25150f3dfb4317cda1acc5e3f79a5da4ad073ddca58886569527
 
 depends =
 

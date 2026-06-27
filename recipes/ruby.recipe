@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.2.tar.gz    1b5a4a878903e526f2021994f457c12b35bd191efeefa5efad424f88561e5154
+    https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.2.tar.gz    41328ac21f2bfdd7de6b3565ef4f0dd7543354d37e96f157a1552a6bd0eb364b
 
 depends =
     openssl

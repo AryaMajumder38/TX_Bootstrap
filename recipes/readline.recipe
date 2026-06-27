@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/readline/readline-8.2.13.tar.gz    0e5be0d9835ea7a3c674c97f4274e0c30e5b32c17b16a5d844e4a16f3eb9c9b2
+    https://mirrors.kernel.org/gnu/readline/readline-8.2.13.tar.gz    0e5be4d2937e8bd9b7cd60d46721ce79f88a33415dd68c2d738fb5924638f656
 
 depends =
     ncurses

@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://www.netfilter.org/pub/conntrack-tools/conntrack-tools-1.4.8.tar.bz2    9448f8a1159c9b14e3e1b9d8eab1a6ddf88d26e1f888a34cef430c756e4e6e1e
+    https://www.netfilter.org/pub/conntrack-tools/conntrack-tools-1.4.8.tar.xz    067677f4c5f6564819e78ed3a9d4a8980935ea9273f3abb22a420ea30ab5ded6
 
 depends =
     libnetfilter_conntrack

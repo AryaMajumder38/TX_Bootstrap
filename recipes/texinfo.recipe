@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/texinfo/texinfo-7.2.tar.xz    9e4b34ebdc7ef251fb74894507b6e5c94c2514a32efa6f8b2cf7f597f348d3db
+    https://mirrors.kernel.org/gnu/texinfo/texinfo-7.2.tar.xz    0329d7788fbef113fa82cb80889ca197a344ce0df7646fe000974c5d714363a6
 
 depends =
     ncurses

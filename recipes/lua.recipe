@@ -9,7 +9,7 @@ release = 1
 build_style = make
 
 source =
-    https://www.lua.org/ftp/lua-5.4.7.tar.gz    9fbf5e15ef60ca493bb3e348bc4b325b8f05c8e8d6b09dc8af79e95f5c52684d
+    https://www.lua.org/ftp/lua-5.4.7.tar.gz    9fbf5e28ef86c69858f6d3d34eccc32e911c1a28b4120ff3e84aaa70cfbf1e30
 
 depends =
     readline

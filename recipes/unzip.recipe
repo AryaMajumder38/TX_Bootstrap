@@ -9,7 +9,7 @@ release = 1
 build_style = make
 
 source =
-    https://downloads.sourceforge.net/infozip/unzip60.tar.gz    036d96991646d0449ed0aa952e4fbe21b476ce994abc276e49d30e68608bd6e9
+    https://downloads.sourceforge.net/infozip/unzip60.tar.gz    01ab94e5fe070763907534a2e95a2a01d24eb0867ab8a6e7911dddf3960720a1
 
 depends =
 

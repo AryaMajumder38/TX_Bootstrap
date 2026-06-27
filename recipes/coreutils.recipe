@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/coreutils/coreutils-9.5.tar.xz    6f7f2f91eb6e66f46c3cec28bd405c0ad4cb75ed2a8db2a9a3886dca63053462
+    https://mirrors.kernel.org/gnu/coreutils/coreutils-9.5.tar.xz    cd328edeac92f6a665de9f323c93b712af1858bc2e0d88f3f7100469470a1b8a
 
 depends =
 

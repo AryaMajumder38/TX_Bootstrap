@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.40/util-linux-2.40.tar.xz    d57a626081835e6fc88c37ca00edd6b4be98f3ed0df7a1e72b0c301585a52237
+    https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.40/util-linux-2.40.tar.xz    d57a626081f9ead02fa44c63a6af162ec19c58f53e993f206ab7c3a6641c2cd7
 
 depends =
     ncurses

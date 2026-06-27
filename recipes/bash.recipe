@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/bash/bash-5.2.21.tar.gz    c8e31bdc59b0600d2204a49e9c5f82a54000fbfd7711cd777e7373dc9d5f2f74
+    https://mirrors.kernel.org/gnu/bash/bash-5.2.21.tar.gz    c8e31bdc59b69aaffc5b36509905ba3e5cbb12747091d27b4b977f078560d5b8
 
 depends =
     readline

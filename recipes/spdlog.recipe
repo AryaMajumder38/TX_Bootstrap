@@ -9,7 +9,7 @@ release = 1
 build_style = cmake
 
 source =
-    https://github.com/gabime/spdlog/archive/refs/tags/v1.15.1.tar.gz    25c6654bb501649150fd8a4c2302b2c3b20c3426de969294d05f3a0f5043cd23
+    https://github.com/gabime/spdlog/archive/refs/tags/v1.15.1.tar.gz    25c843860f039a1600f232c6eb9e01e6627f7d030a2ae5e232bdd3c9205d26cc
 
 depends =
     fmt

@@ -9,7 +9,7 @@ release = 1
 build_style = make
 
 source =
-    https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz    ab5a03176ee106d3f0fa6c02bb6b1f9c5c3f51c0a2b8e6f8b8e6f8b8e6f8b8e6
+    https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz    ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269
 
 depends =
 

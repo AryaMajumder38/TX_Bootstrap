@@ -9,7 +9,7 @@ release = 1
 build_style = gnu
 
 source =
-    https://ftp.gnu.org/gnu/sed/sed-4.9.tar.xz    6e226b732e1cd739464ad8b3f311bd5e2988f1c84fb01c9c08f3315b2bf0b0f1
+    https://mirrors.kernel.org/gnu/sed/sed-4.9.tar.xz    6e226b732e1cd739464ad6862bd1a1aba42d7982922da7a53519631d24975181
 
 depends =
 
