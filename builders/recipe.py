@@ -71,6 +71,7 @@ class Recipe:
     meson_args: List[str] = field(default_factory=list)
     build_style: str = "gnu"  # gnu, cmake, meson, python, make, custom
     build_dir: str = "build"
+    extract_dir: Optional[str] = None
 
     # Build environment
     env_vars: Dict[str, str] = field(default_factory=dict)
@@ -126,6 +127,8 @@ class Recipe:
     @property
     def source_dir(self) -> str:
         """Get the expected source directory name."""
+        if self.extract_dir:
+            return self.extract_dir
         return f"{self.name}-{self.version}"
 
     def get_all_dependencies(self) -> Set[str]:
@@ -279,7 +282,7 @@ class RecipeParser:
         # String fields
         for field_name in ['name', 'version', 'category', 'description', 'homepage',
                           'license', 'maintainer', 'upstream_author', 'build_style',
-                          'build_dir', 'pre_install_script', 'post_install_script',
+                          'build_dir', 'extract_dir', 'pre_install_script', 'post_install_script',
                           'pre_remove_script', 'post_remove_script']:
             if field_name in data:
                 kwargs[field_name] = data[field_name].strip()
