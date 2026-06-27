@@ -31,7 +31,7 @@ class RepositoryMetadata:
     architecture: str = "aarch64"
     api_level: int = 29
     components: List[str] = field(default_factory=lambda: ["main"])
-    last_updated: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat()))
+    last_updated: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
     package_count: int = 0
     total_size: int = 0
 
