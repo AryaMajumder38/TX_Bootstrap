@@ -13,7 +13,7 @@ from typing import Optional, List
 logger = logging.getLogger(__name__)
 
 
-@dataclass(order=True)
+@dataclass
 class SemanticVersion:
     """Represents a semantic version: MAJOR.MINOR.PATCH[-PRERELEASE][+BUILD]."""
 
