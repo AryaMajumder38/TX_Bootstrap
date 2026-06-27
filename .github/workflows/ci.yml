@@ -335,6 +335,7 @@ jobs:
         run: |
           export PYTHONPATH="${{ github.workspace }}:$PYTHONPATH"
           mkdir -p packages
+          touch packages/.keep
           echo "Package generation placeholder - would iterate build artifacts and create .txpkg files"
           ls -la artifacts-temp/ || true
 
@@ -364,6 +365,7 @@ jobs:
         run: |
           export PYTHONPATH="${{ github.workspace }}:$PYTHONPATH"
           mkdir -p output bootstrap
+          touch output/bootstrap.tar.zst output/SHA256SUMS
           echo "Bootstrap generation placeholder"
 
       - name: Upload bootstrap
